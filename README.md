@@ -7,6 +7,6 @@ DESCRIPTION:
            It will also show you the weather of next five days of that city.
            
 API:
-           I declare an API from OpenWeatherMap That shows the longitude and lagitude of the same city.
+           I declare an API from OpenWeatherMap that shows the longitude and latitude of the same city.
            
            As well as the location of that place with the country. 
