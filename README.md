@@ -2,7 +2,7 @@ DESCRIPTION:
            This is my Weather App. This app is created with the help of API.
            
            If you want to check the weather of any city of any country, you can simply chechk it by type the
-           name of the city.
+           name of the city and go to search icon.
            
            It will also show you the weather of next five days of that city.
            
