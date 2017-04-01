@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Weather App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/font-awesome-4.6.2/css/font-awesome.css">
+    <link rel="stylesheet" href="css/material-bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Enter city name to get data</h2>
+                <div id="custom-search-input">
+                    <div class="input-group col-md-12">
+                        <input type="text" id="txt_city" class="form-control input-lg" placeholder="Enter your location [e.g. Vancouver]" />
+                        <span class="input-group-btn">
+                            <button id="btn_search" class="btn btn-info btn-lg" type="button">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6" style="margin-bottom:10px;">
+                        <div class="input-group">
+                            <span class="input-group-addon">Longitude</span>
+                            <input type="text" class="form-control" id="longitude" readonly1="readonly">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6" style="margin-bottom:10px;">
+                        <div class="input-group">
+                            <span class="input-group-addon">Latitude</span>
+                            <input type="text" class="form-control" id="latitude" readonly1="readonly">
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="input-group">
+                            <span class="input-group-addon">Place</span>
+                            <input type="text" class="form-control" id="place_name" readonly1="readonly">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>Current Weather</h2>
+                <div class="weather-data">
+                    <div class="icon"><img id="wimg" width="200" /></div>
+                    <div class="weather">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>Forecasted Weather : Next 5 days</h2>
+                <div class="forecast-data">
+                    <table class="forecast"></table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
